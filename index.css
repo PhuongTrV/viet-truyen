@@ -1,0 +1,80 @@
+body {
+	margin: 0px 0px 0px 0px;
+	background: #393a3f;
+	overflow-x: hidden;
+	width: 100vw;
+}
+/*header*/
+header {
+	background-image: linear-gradient(to right, #000000 , #3b7dbb, #3533cd);
+	width: 100vw;
+	height: 80px;
+	display: flex;
+	align-items: center;
+
+}
+.header-item {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	width: auto;
+	margin-left: 35px;
+	transition: all 0.4s ease-in;
+}
+.header-item:hover {
+	color: #506ea6;
+}
+
+/*section*/
+section {
+	grid-template-columns: auto auto auto auto;
+	width: 100%;
+	align-items: center;
+	display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 50px;
+    padding-top: 50px;
+}
+.item {
+	position: relative;
+	background: gray;
+	border-radius: 10px;
+	height: 300px;
+	width: 250px;
+	overflow: hidden;
+    border: #5de0e6 solid 3px;
+
+}
+.image {
+	height: 100%;
+	width: 100%;
+}
+.title {
+	position: absolute;
+	bottom: 0px;
+	height: 30%;
+	width: 100%;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.0));
+	color: white;
+	padding-left: 20px;
+}
+.edit {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: black;
+	background: #2d90eb;
+	height: auto;
+	width: auto;
+	border-radius: 10px;
+	padding: 5px;
+	z-index: 100;
+	text-decoration: none;
+}
+.elsu {
+	position: fixed;
+	bottom: -50px;
+	right: 5px;
+}
